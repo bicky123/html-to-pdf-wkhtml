@@ -2,9 +2,14 @@
   "name": "html-to-pdf-wkhtml",
   "version": "1.0.0",
   "description": "AWS Lambda function that converts HTML pages to PDF documents",
+  "repository": "https://github.com/bicky123/html-to-pdf-wkhtml.git",
   "scripts": {
-    "start": "node "
+    "start": "node utils/wkhtmltopdf.js"
   },
+  "keywords": [],
+  "author": "BICKY",
+  "license": "ISC",
+  "main": "utils/wkhtmltopdf.js",
   "dependencies": {},
   "devDependencies": {}
 }
